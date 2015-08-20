@@ -1,0 +1,38 @@
+{
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"caret_extra_width": 1,
+	"caret_style": "phase",	
+	"overlay_scroll_bars": "enabled",
+	"line_padding_top": 1,
+	"line_padding_bottom": 1,	
+	"bold_folder_labels": true,	
+	"color_scheme": "Packages/Material Spacegray/schemes/Material Spacegray Darker.tmTheme",
+	"default_encoding": "UTF-8",
+	"draw_indent_guides": true,
+	"draw_minimap_border": true,
+	"font_face": "Consolas",
+	"font_options":
+	[
+		"subpixel_antialias",
+		"gray_antialias",
+		"no_bold"
+	],
+	"font_size": 12.5,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Javascript Beautify",
+		"Vintage",
+		"HTML-CSS-JS Prettify"
+	],
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"quick_panel_small": true,
+	"show_full_path": true,
+	"show_line_endings": true,
+	"tab_size": 2,
+	"material_spacegray_bold_tab": true,
+	"theme": "Material Spacegray Darker.sublime-theme"
+}

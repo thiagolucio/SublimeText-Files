@@ -1,0 +1,142 @@
+Package Control Messages
+========================
+
+Material Spacegray:
+------------------
+
+  Thanks for installing Material Spacegray Theme!
+  Check out https://github.com/saadq/Material-Spacegray for more info.
+  
+  ******************************************************************************
+  
+  
+  To activate this awesome theme, add in your current settings this code:
+  
+  {
+      "theme": "Material Spacegray.sublime-theme",
+      "color_scheme": "Packages/Material Spacegray/schemes/Material Spacegray.tmTheme",
+  }
+  
+  OR this:
+  
+  {
+      "theme": "Material Spacegray Darker.sublime-theme",
+      "color_scheme": "Packages/Material Spacegray/schemes/Material Spacegray Darker.tmTheme",
+  }
+  
+  
+  MAKE SURE TO RESTART SUBLIME AFTER ACTIVATING THE THEME
+  ******************************************************************************
+  
+  
+  Recommended UI and font settings:
+  I suggest that you use the following custom settings for a better experience with the theme:
+  
+  {
+      "overlay_scroll_bars": "enabled",
+      "line_padding_top": 3,
+      "line_padding_bottom": 3,
+      // On retina Mac
+      "font_options": [ "gray_antialias" ],
+      "always_show_minimap_viewport": true,
+      "bold_folder_labels": true,
+      // Highlight active indent
+      "indent_guide_options": [ "draw_normal", "draw_active" ]
+  }
+  
+  ******************************************************************************
+  
+
+
+Material Theme:
+--------------
+
+  ___  ___      _            _       _       _____ _
+  |  \/  |     | |          (_)     | |     |_   _| |
+  | .  . | __ _| |_ ___ _ __ _  __ _| |       | | | |__   ___ _ __ ___   ___
+  | |\/| |/ _` | __/ _ \ '__| |/ _` | |       | | | '_ \ / _ \ '_ ` _ \ / _ \
+  | |  | | (_| | ||  __/ |  | | (_| | |       | | | | | |  __/ | | | | |  __/
+  \_|  |_/\__,_|\__\___|_|  |_|\__,_|_|       \_/ |_| |_|\___|_| |_| |_|\___|
+  
+  Material Theme for Sublime Text 3
+  https://github.com/equinusocio/material-theme for more info
+  
+  ******************************************************************************
+  
+  
+  To activate this awesome theme, add in your current settings this code:
+  
+  {
+      "theme": "Material-Theme.sublime-theme",
+      "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+  }
+  
+  
+  MAKE SURE TO RESTART SUBLIME AFTER ACTIVATING THE THEME
+  ******************************************************************************
+  
+  
+  You can set the alternative darker version with this:
+  
+  {
+      "theme": "Material-Theme-Darker.sublime-theme",
+      "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+  
+  }
+  
+  ******************************************************************************
+  
+  
+  Recommended UI and font settings:
+  I suggest you to use this custom settings for a better experience with the theme:
+  
+  {
+      "overlay_scroll_bars": "enabled",
+      "line_padding_top": 3,
+      "line_padding_bottom": 3,
+      // On retina Mac
+      "font_options": [ "gray_antialias" ],
+      "always_show_minimap_viewport": true,
+      "bold_folder_labels": true,
+      // Highlight active indent
+      "indent_guide_options": [ "draw_normal", "draw_active" ]
+  }
+  
+  ******************************************************************************
+  
+
+
+Material Color Scheme:
+---------------------
+
+  Thanks for installing Material!
+  
+  
+  How to activate
+  ===============
+  
+  Activate the color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (?+, on Mac).
+  
+  Material Dark
+  ---------
+  
+  Dark variation
+  
+  *Example settings*
+  
+      {
+        "color_scheme": "Packages/Material Color Scheme/sublime/material-dark.tmTheme",
+      }
+  
+  
+  Material Light
+  ---------------
+  
+  Light variation.
+  
+  *Example settings*
+  
+      {
+        "color_scheme": "Packages/Material Color Scheme/sublime/material-light.tmTheme",
+      }
+  

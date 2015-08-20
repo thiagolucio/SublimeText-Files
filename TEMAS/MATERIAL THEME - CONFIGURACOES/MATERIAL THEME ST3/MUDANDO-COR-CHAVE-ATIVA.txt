@@ -1,0 +1,16 @@
+mudando a cor de destaque da tag clicada (geralmente linha 22566 ou na 49):
+
+<key>foreground</key>
+
+<string>#FFFFFF</string>
+
+OU
+
+
+<key>caret</key>
+
+<string>#FFCC00</string>
+
+<key>foreground</key>
+
+<string>#FFFFFF</string>

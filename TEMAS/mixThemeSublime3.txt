@@ -1,0 +1,117 @@
+::::::::::::   SETI DARK UI :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+{	
+	"Seti_SB_bright": false,	
+	"Seti_sb_wild": false,
+	"Seti_SB_med": true,
+	"Seti_in_4_a_treat": true,
+	"Seti_mouse_wheel_tabswitch": true,
+	"Seti_no_bar_undertabs": true,
+	"Seti_orange_label": false,		  	             	
+  "Seti_orange_button": true,                
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"caret_extra_width": 1,
+	"caret_style": "phase",
+	//"color_scheme": "Packages/Seti_UI/Scheme/Seti_monokai.tmTheme",
+	"color_scheme": "Packages/User/Color Highlighter/themes/One Dark Atom Similar Theme.tmTheme",	
+	"default_encoding": "UTF-8",
+	"draw_indent_guides": true,
+	"draw_minimap_border": true,
+	"font_face": "Ubuntu Mono",
+	"font_size": 12.3,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Javascript Beautify",
+		"HTML-CSS-JS Prettify"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"quick_panel_small": false,
+	"show_full_path": true,
+	"show_line_endings": true,
+	"tab_size": 2,
+	"theme": "Seti_orig.sublime-theme"
+}
+
+:::::::::::::MATERIAL DARK::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+{
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"caret_extra_width": 1,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/Color Highlighter/themes/One Dark Atom Similar Theme.tmTheme",
+	"default_encoding": "UTF-8",
+	"draw_indent_guides": true,
+	"draw_minimap_border": true,
+	"font_face": "Consolas",
+	"font_options":
+	[
+		"subpixel_antialias",
+		"gray_antialias",
+		"no_bold"
+	],
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Javascript Beautify",
+		"HTML-CSS-JS Prettify"
+	],
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"material_theme_bold_tab": true,
+	"material_theme_disable_tree_indicator": false,
+	"material_theme_panel_separator": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_tabs_separator": true,
+	"overlay_scroll_bars": "enabled",
+	"quick_panel_small": true,
+	"show_full_path": true,
+	"show_line_endings": true,
+	"tab_size": 2,
+	"theme": "Material-Theme-Darker.sublime-theme"
+}
+
+::::::::::::::FLATGRAMMER::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+{
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"caret_extra_width": 1,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/Color Highlighter/themes/OneDarkSublimeTh.tmTheme",
+	"default_encoding": "UTF-8",
+	"draw_indent_guides": true,
+	"draw_minimap_border": true,
+	"font_face": "Ubuntu Mono",
+	"font_size": 12.3,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Javascript Beautify",
+		"HTML-CSS-JS Prettify"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"quick_panel_small": false,
+	"show_full_path": true,
+	"show_line_endings": true,
+	"sidebar_size_12": true,
+	"tab_size": 2,
+	"tabs_small": false,
+	"theme": "Flatgrammer.sublime-theme"
+}
