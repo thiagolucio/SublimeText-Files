@@ -1,0 +1,44 @@
+{
+  "theme": "Seti_orig.sublime-theme",
+  "color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
+}
+
+
+
+PREFERENCIAS:
+
+	
+
+{	
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"caret_extra_width": 1,
+	"color_scheme": "Packages/Seti_UI/Scheme/Seti_monokai.tmTheme",
+	"default_encoding": "UTF-8",
+	"draw_indent_guides": true,
+	"draw_minimap_border": true,
+	"font_face": "Ubuntu Mono",
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Javascript Beautify",
+		"Vintage",
+		"HTML-CSS-JS Prettify"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"quick_panel_small": false,
+	"show_full_path": true,
+	"show_line_endings": true,
+	"caret_style": "phase",
+	"tab_size": 2,
+	"Seti_no_bar_undertabs": true,  
+	"Seti_blue_tab_label": true,
+	"Seti_mouse_wheel_tabswitch": true,	
+	"Seti_SB_bright": true,	
+	"theme": "Seti_orig.sublime-theme"
+}

@@ -1,0 +1,44 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<style type="text/css">
+	
+nav {width: 100%; height: 20px; background: #6C4A8E; padding:20px; text-align: center;} /* altura e padding devem ter mesmo tamanho. */
+nav a {padding: 20px; color: #FFF; font-size: 14pt; text-decoration: none;} /* padding mesmo tamanho da nav */
+nav a:hover {
+	background: #C6C8BD; 
+	-webkit-transition: all ease .5s;
+	-o-transition: all ease .5s;
+	-moz-transition: all ease .5s;
+	-ms-transition: all ease .5s;
+	transition: all ease .5s;
+	color: #3B3B3B;
+}
+
+</style>
+<title></title>
+</head>
+<body>
+<h2>Menu Horizontal</h2>
+<nav>
+<a href="#">Item1</a>
+<a href="#">Item2</a>
+<a href="#">Item3</a>
+<a href="#">Item4</a>
+<a href="#">Item5</a>
+<a href="#">Item6</a>
+</nav>
+
+</body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>menuhorizontal</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

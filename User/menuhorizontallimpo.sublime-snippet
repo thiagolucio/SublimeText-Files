@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<h2>Menu Horizontal</h2>
+<nav>
+<a href="#">Item1</a>
+<a href="#">Item2</a>
+<a href="#">Item3</a>
+<a href="#">Item4</a>
+<a href="#">Item5</a>
+<a href="#">Item6</a>
+</nav>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>menuhorizontallimpo</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

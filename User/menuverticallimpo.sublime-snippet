@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<h2>Menu Vertical</h2>
+<menu>
+<li><inputtype="checkbox" />Item1</li>
+<li><inputtype="checkbox" />Item2</li>
+</menu>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>menuverticallimpo</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

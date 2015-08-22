@@ -1,0 +1,26 @@
+{
+	"http_proxy": "http://proxy.nexxera.com:3128",
+	"https_proxy": "http://proxy.nexxera.com:3128",
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ApplySyntax",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"CSS Format",
+		"HTMLBeautify",
+		"Material Color Scheme",
+		"Material Theme",
+		"Materialize",
+		"Package Control",
+		"Seti_UI",
+		"SideBarEnhancements",
+		"SublimeServer",
+		"Theme - Dark Material",
+		"Theme - Flatgrammer"
+	],
+	"proxy_password": "Paineiras.1",
+	"proxy_username": "thiago.silva"
+}

@@ -1,0 +1,31 @@
+{
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"caret_extra_width": 1,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/Color Highlighter/themes/OneDarkSublimeTh.tmTheme",
+	"default_encoding": "UTF-8",
+	"draw_indent_guides": true,
+	"draw_minimap_border": true,
+	"font_face": "Ubuntu Mono",
+	"font_size": 12.3,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Javascript Beautify",
+		"HTML-CSS-JS Prettify"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"quick_panel_small": false,
+	"show_full_path": true,
+	"show_line_endings": true,
+	"sidebar_size_12": true,
+	"tab_size": 2,
+	"tabs_small": false,
+	"theme": "Flatgrammer.sublime-theme"
+}

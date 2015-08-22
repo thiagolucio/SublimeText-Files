@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	vertical-align:baseline;
+  }
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+<tabTrigger>resetCSS</tabTrigger>
+</snippet>

@@ -1,0 +1,142 @@
+<snippet>
+    <content><![CDATA[
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+<style type="text/css">
+body, html  {margin: 0; padding: 0;}
+/*formatacao de fontes*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,400&subset=latin,cyrillic-ext);
+
+nav {
+	width: 100%;
+	height: 60px;
+	margin: auto;
+	text-align: right;	
+	background-color: #bdc3c7;	
+}
+/*setando o menu e zerando as configuracoes*/
+/* primeiro nivel de ul com os menus principais da primeira camada */
+#menu ul {
+	margin: 0;
+	padding: 0;
+	margin: auto;
+	line-height: 60px; /*para os itens ficarem centralizados em relacao a altura da linha, sempre mesmo valor da altura da linha*/
+}
+
+/* itens de menu - configuracao global do li */
+#menu li {
+	list-style-type: none; /*tirar marcacao dos itens*/
+	float: left; /*fazer o menu ficar horizontal*/
+	position: relative;
+}
+
+/*  Estilizando os itens de menu principal dentro da primeira ul e li */
+#menu ul li a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600; 
+	text-align: center;
+	font-size: 1.0em;
+	color: #333;
+	text-decoration: none;
+	width: 150px;
+	height: 60px;	
+	display: block; /*para que os subitens fiquem um sobre o outro na vertical*/
+	background-color: #bdc3c7;
+}
+
+/*Estilizando o item do menu principal ao colocar o mouse sobre*/
+#menu ul li a:hover {
+	background-color: #9b59b6;
+	color: #FFF;
+	-webkit-transition: all ease .5s;
+	-o-transition: all ease .5s;
+	-moz-transition: all ease .5s;
+	-ms-transition: all ease .5s;
+	transition: all ease .5s;
+}
+
+/*ul dos submenus é a segunda ul*/
+#menu ul ul {
+	position: absolute; /*para que o menu coloque os itens principais e subitens um ao lado do outro horizontalmente*/
+	top: 60px; /*distancia do submenu para o menu principal, sem mesma altura do menu para nao ficar sobre ele*/	
+	visibility: hidden; /*escondendo o sub menu para que mostre somente ao passar mouse sobre*/
+	opacity: 0.5;
+}
+
+/*Mostrando os submenus ao passar com mouse sobre*/
+/*ao colocar mouse os li do primeiro ul mostrar o segundo ul escondido*/
+#menu ul li:hover ul {
+	visibility: visible;
+	opacity: 1;
+   transition: opacity .40s ease-in-out;
+   -moz-transition: opacity .40s ease-in-out;
+   -webkit-transition: opacity .40s ease-in-out;
+
+}
+
+/*Estilizando o item do submenu.. tambem poderia ser declarado "ul ul li a" OU "ul li ul a" */
+#menu ul li ul li a{
+	background-color: #bdc3c7; /*cor inicial do item de submenu*/	
+	text-align: left;
+	font-size: 0.85em;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	padding: 8px; /*espaco interno dos itens de submenu*/
+}
+/*Estilizando os itens do submenu ao colocar o mouse sobre*/
+#menu ul li ul li a:hover{
+	background-color: #9b59b6;
+	color: #FFF;
+	-webkit-transition: all ease .5s;
+	-o-transition: all ease .5s;
+	-moz-transition: all ease .5s;
+	-ms-transition: all ease .5s;
+	transition: all ease .5s;
+}
+</style>
+<title>Menu DropDown Limpo</title>
+</head>
+<body>
+
+<nav id="menu">
+  <UL>
+    <li> <a href="#">Menu UL 01</a>
+      <UL>
+        <li><a href="#">SubMenu UL Li a 01</a></li>
+        <li><a href="#">SubMenu UL Li a 02</a></li>
+        <li><a href="#">SubMenu UL Li a 03</a></li>
+      </UL>
+    </li>
+  </UL>
+
+  <UL>
+    <li> <a href="#">Menu UL 02</a>
+      <UL>
+        <li><a href="#">SubMenu UL Li a 01</a></li>
+        <li><a href="#">SubMenu UL Li a 02</a></li>
+        <li><a href="#">SubMenu UL Li a 03</a></li>
+      </UL>
+    </li>
+  </UL>
+
+  <UL>
+    <li> <a href="#">Menu UL 03</a>
+      <UL>
+        <li><a href="#">SubMenu UL Li a 01</a></li>
+        <li><a href="#">SubMenu UL Li a 02</a></li>
+        <li><a href="#">SubMenu UL Li a 03</a></li>
+      </UL>
+    </li>
+  </UL>
+</nav>
+</body>
+</html>
+
+]]></content>
+   <tabTrigger>menuDropDown</tabTrigger>
+</snippet>

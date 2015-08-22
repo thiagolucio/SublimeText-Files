@@ -1,0 +1,80 @@
+Seti_UI:
+-------
+
+:::MODELO ATUAL:::::
+{
+  "theme": "Seti_orig.sublime-theme",
+  "color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
+}
+:::::::ANTIGO OU PADRAO::::::::
+{
+    "theme": "Seti.sublime-theme",
+    "color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
+  
+    "caret_extra_width": 2,                 //  to have a wider/thicker caret
+    "line_padding_bottom": 2,               //  should be at least = 2 to align properly with the fold icon
+    "line_padding_top": 2,
+    "margin": 2,
+  
+    "overlay_scroll_bars": "enabled",       //  to show scrollbars only when scrolling
+    "highlight_line": true,                 //  to highlight the current line
+}
+  ```
+  
+  - please check the readme for more theme options.
+  
+  - copy the (fold.png) "or edit it if you want" to (Packages/Theme - Default) to override the _focken default yellow icon.
+  
+  - for better recognition of file types, its recommended to install [Apply?Syntax](https://sublime.wbond.net/packages/ApplySyntax) by facelessuser.
+  
+  
+  ## Folder Contents
+  ----------------------
+  
+  +Res
+  
+    |-Ext         > copy the content of this folder to your 'Packages/User' folder so (Extensions/Files) can recognize their correct language/icons.
+  
+    |-File_Types  > are for testing the icons with, if you don't need it you can simply remove it.
+  
+
+
+::::::::::::::::PREFERENCIAS:::::::::::::::::::::::::::
+{	
+	"Seti_SB_bright": false,	
+	"Seti_sb_wild": false,
+	"Seti_SB_med": true,
+	"Seti_in_4_a_treat": true,
+	"Seti_mouse_wheel_tabswitch": true,
+	"Seti_no_bar_undertabs": true,
+	"Seti_orange_label": false,		  	             	
+  "Seti_orange_button": true,                
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"caret_extra_width": 1,
+	"caret_style": "phase",
+	//"color_scheme": "Packages/Seti_UI/Scheme/Seti_monokai.tmTheme",
+	"color_scheme": "Packages/User/Color Highlighter/themes/One Dark Atom Similar Theme.tmTheme",	
+	"default_encoding": "UTF-8",
+	"draw_indent_guides": true,
+	"draw_minimap_border": true,
+	"font_face": "Ubuntu Mono",
+	"font_size": 12.3,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Javascript Beautify",
+		"HTML-CSS-JS Prettify"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"quick_panel_small": false,
+	"show_full_path": true,
+	"show_line_endings": true,
+	"tab_size": 2,
+	"theme": "Seti_orig.sublime-theme"
+}

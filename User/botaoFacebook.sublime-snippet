@@ -1,0 +1,61 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<style type="text/css">
+			.myButton {
+		-moz-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+		-webkit-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+		box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+		background:-webkit-gradient(linear, left top, leftbottom, color-stop(0.05, #637aad), color-stop(1,#5972a7));
+		background:-moz-linear-gradient(top, #637aad 5%, #5972a7 100%);
+		background:-webkit-linear-gradient(top, #637aad 5%, #5972a7 100%);
+		background:-o-linear-gradient(top, #637aad 5%, #5972a7 100%);
+		background:-ms-linear-gradient(top, #637aad 5%, #5972a7 100%);
+		background:linear-gradient(to bottom, #637aad 5%, #5972a7 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#637aad',endColorstr='#5972a7',GradientType=0);
+		background-color:#637aad;
+		border:1px solid #314179;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		font-family:arial;
+		font-size:13px;
+		font-weight:bold;
+		padding:8px 14px;
+		text-decoration:none;
+		}
+		.myButton:hover {
+		background:-webkit-gradient(linear, left top, leftbottom, color-stop(0.05, #5972a7), color-stop(1,
+		#637aad));
+		background:-moz-linear-gradient(top, #5972a7 5%, #637aad 100%);
+		background:-webkit-linear-gradient(top, #5972a7 5%, #637aad 100%);
+		background:-o-linear-gradient(top, #5972a7 5%, #637aad 100%);
+		background:-ms-linear-gradient(top, #5972a7 5%, #637aad 100%);
+		background:linear-gradient(to bottom, #5972a7 5%, #637aad 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5972a7',
+		endColorstr='#637aad',GradientType=0);
+		background-color:#5972a7;
+		}
+		.myButton:active {
+		position:relative;
+		top:1px;
+		}
+			
+		</style>
+		<title></title>
+	</head>
+	<body>
+		<h1>Botão Facebook</h1>
+		<a href="#" class="myButton">Facebook</a>
+	</body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>botaoFacebook</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

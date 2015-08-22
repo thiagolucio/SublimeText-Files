@@ -1,0 +1,108 @@
+[
+	{"id": "side-bar-files-open-with",
+		"children":
+		[
+
+			//Iview32
+			{
+				"caption": "InfranView32",
+				"id": "side-bar-files-open-with-InfranView32",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "C:\\Program Files (x86)\\IrfanView\\i_view32.exe", // WINNT
+									"extensions":"jpg|jpeg"  //any file with these extensions
+								},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+			
+			//Fireworks
+			{
+				"caption": "Fireworks",
+				"id": "side-bar-files-open-with-fireworks",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "C:\\Program Files (x86)\\Adobe\\Adobe Fireworks CS6\\Fireworks.exe", // WINNT
+									"extensions":"png"  //any file with these extensions
+								},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+
+			//separator - cria uma linha separadora entre os itens
+			{"caption":"-"},
+			//GOOGLE CHROME CANARY
+            {
+                "caption": "CHROME CANARY",
+                "id": "side-bar-files-open-with-chrome",
+
+                "command": "side_bar_files_open_with",
+                "args": {
+                                    "paths": [],
+                                    "application": "C:\\Users\\Thiago\\AppData\\Local\\Google\\Chrome SxS\\Application\\chrome.exe",
+                                    "extensions":".*" //any file with extension
+                        },
+                "open_automatically" : false // will close the view/tab and launch the application
+            },
+
+			//GOOGLE CHROME
+			{
+				"caption": "GOOGLE CHROME",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+									"extensions":".*" //any file with extension
+						},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+
+			
+			//FIREFOX
+			{
+				"caption": "FIREFOX",
+				"id": "side-bar-files-open-with-firefox",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe", // WINNT
+									"extensions":"" //open all even folders
+								},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+
+			//SAFARI
+			{
+				"caption": "SAFARI",
+				"id": "side-bar-files-open-with-safari",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "C:\\Program Files (x86)\\Safari\\Safari.exe", // WINNT
+									"extensions":"" //open all even folders
+								},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+			
+			//INTERNET EXPLORER
+			{
+				"caption": "IE",
+				"id": "side-bar-files-open-with-InternetExplorer",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "C:\\Program Files\\Internet Explorer\\iexplore.exe", // WINNT
+									"extensions":"" //open all even folders
+								},
+				"open_automatically" : false // will close the view/tab and launch the application
+			}
+		]
+	}
+]

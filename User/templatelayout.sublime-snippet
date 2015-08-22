@@ -1,0 +1,42 @@
+<snippet>
+    <content><![CDATA[
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<title>Template Layout</title>
+<style type="text/css">
+	.geral {
+display: “aaa”
+“bcd”
+“eee”;
+}
+nav.menu {position:a; background-color: #FF0000;}
+aside.menulateral {position:b; background-color: #CCC;}
+aside.publicidade {position:d; background-color: #C1C1C1;}
+article.post {position:c;background-color: #DDD;}
+footer {position:e; background-color: #000; color: #FFF;}
+</style>
+</head>
+<body>
+
+ <div class="geral">
+<nav class="menu">Barra NAV</nav>
+<aside class="menulateral">MENU LATERAL 1</aside>
+<aside class="publicidade">MENU LATERAL 2</aside>
+<article class="post">ARTICLE - POST</article>
+<footer>RODAPE</footer>
+
+</div>
+</body>
+</html>
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+<tabTrigger>templatelayout</tabTrigger>
+</snippet>

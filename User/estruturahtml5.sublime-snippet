@@ -1,0 +1,160 @@
+<snippet>
+	<content><![CDATA[
+	<!DOCTYPE HTML>
+	<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<title></title>
+		<style type="text/css">
+		body {
+	padding: 0;
+    margin: 0;
+    border: 0;
+	background: #e5e5e5; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1JSIgc3RvcC1jb2xvcj0iI2U1ZTVlNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2NlY2VjZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk2JSIgc3RvcC1jb2xvcj0iI2U1ZTVlNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  #e5e5e5 5%, #cecece 50%, #e5e5e5 96%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#e5e5e5), color-stop(50%,#cecece), color-stop(96%,#e5e5e5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e5e5e5 5%,#cecece 50%,#e5e5e5 96%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e5e5e5 5%,#cecece 50%,#e5e5e5 96%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e5e5e5 5%,#cecece 50%,#e5e5e5 96%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e5e5e5 5%,#cecece 50%,#e5e5e5 96%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-8 */
+	}
+
+	header {
+		background-color: gray;
+		padding: 10px;
+		margin: 0;
+		text-align: left;
+		font-size: 16px;
+	}
+	section {
+	padding: 16px;
+    margin: 0;
+    border: 0;
+	width: 100%
+	height: auto;
+	background-color: transparent;
+}
+	footer {
+		background-color: red;
+	}
+	aside {
+		background-color: yellow;
+	}
+	article {}
+		</style>
+	</head>
+	<body>
+		<header>
+			<hgroup>
+			<h1>Header -> hgroup ->h1</h1>
+			<h2>Header -> hgroup ->h2</h2>
+			</hgroup>
+		</header>
+		<nav>
+			<ul>
+				<h2>Menu Horizontal</h2>
+				<nav>
+				<a href="#">Item1</a>
+				<a href="#">Item2</a>
+				<a href="#">Item3</a>
+				<a href="#">Item4</a>
+				<a href="#">Item5</a>
+				<a href="#">Item6</a>
+				</nav>
+			</ul>
+		</nav>
+		<section>
+			<article>
+				<header>
+					<h1>Section 1 - Article 1 - Header - 1</h1>
+				</header>
+				<section>
+					Section 1.1 (estilo Original)- Article 1.2 - Header - 1.2
+				</section>
+			</article>
+			<article>
+				<header>
+					<h1>Article 1.2 - Header 1.3 - h1</h1>
+				</header>
+				<section>
+					Section 1.3 (estilo Original)- Article 1.3 - Header - 1.3
+				</section>
+			</article>
+		</section>
+		<section style="background-color: green;">
+			<article>
+				<header>
+					<h1>Section 2 - Article 2.1 - Header - 2.1 - h1</h1>
+				</header>
+				<section>
+					Section 2.1 - Article 2.1 
+				</section>
+			</article>
+			<article>
+				<header>
+					<h1>Article 2.2 - header 2.2 - h1</h1>
+				</header>
+				<section>
+					Article 2.2 - Section 2.3 
+				</section>
+			</article>
+		</section>
+		<section style="background-color: blue;">
+			<article>
+				<header>
+					<h1>Section 3 - Article 3.1 - Header - 3.1 - h1</h1>
+				</header>
+				<section>
+					Section 3.1 - Article 3.1
+				</section>
+			</article>
+			<article>
+				<header>
+					<h1>Section 3 - Article 3.2 - Header - 3.2 - h1</h1>
+				</header>
+				<section>
+					Section 3.1 - Article 3.2
+				</section>
+			</article>
+		</section>
+		<section style="background-color: black;">
+			<article>
+				<header>
+					<h1>Section 4 - Article 4.1 - Header - 4.1 - h1</h1>
+				</header>
+				<section>
+					Section 4.1 - Article 4.1
+				</section>
+			</article>
+			<article>
+				<header>
+					<h1>Section 4.1 - Article 4.2 - Header - 4.2 - h1</h1>
+				</header>
+				<section>
+					Section 4.3 - Article 4.2
+				</section>
+			</article>
+		</section>
+		<aside>
+			A Side 1 (cor original)
+		</aside>
+		<aside style="background-color: #F88;">
+			A Side 2
+		</aside>		
+		<footer>
+			Copyright ©
+			<time datetime="2010-11-08">2010</time>.
+		</footer>
+	</body>
+</html>
+]]></content>
+   <tabTrigger>estruturahtml5</tabTrigger>
+</snippet>
+

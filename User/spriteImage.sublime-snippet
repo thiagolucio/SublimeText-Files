@@ -1,0 +1,44 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title></title>
+<style type="text/css" media="screen">
+	h2 {
+    position: relative;
+    width: 230px; /*tamanho de apenas uma imagem*/
+    height: 34px;
+    overflow: hidden;
+}
+h2 img {
+    position: absolute;
+    width: 458px; /*tamanho total da imagem*/
+    height: 34px;
+}
+
+.image { /* posição da imagem no estado padrão antes do hover */
+    top: 0px;
+    left: 0px;
+} 
+
+.image:hover { /* posição da segunda imagem destinada a ser a hover*/
+    top: 0px;
+    left: -230px; 
+    cursor: pointer;
+} 
+</style>
+</head>
+<body>
+ <h2><img class="image" src="tip_spritem.gif" alt="" width="0" height="1" />CSS Sprites</h2>
+<p>Exemplo de texto</p>
+</body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>spriteImage</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
