@@ -27,7 +27,7 @@
 		"gray_antialias",
 		"no_bold"
 	],
-	"font_size": 12.5,
+	"font_size": 11.5,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -39,15 +39,20 @@
 		"draw_normal",
 		"draw_active"
 	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
 	"match_brackets_content": true,
 	"match_brackets_square": true,
+	"material_theme_small_tab": false,
 	"material_theme_bold_tab": true,
-	"material_theme_disable_tree_indicator": false,
 	"material_theme_panel_separator": true,
+	"material_theme_disable_tree_indicator": false,
 	"material_theme_small_statusbar": false,
 	"material_theme_tabs_separator": true,
+	"material_theme_accent_orange": false,
+	"material_theme_accent_yellow": true,
+	"material_theme_accent_red": false,
+	"material_theme_accent_lime": false,
 	"overlay_scroll_bars": true,
 	"quick_panel_small": true,
 	"scroll_past_end": true,
@@ -60,6 +65,7 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
+
 
 
 
