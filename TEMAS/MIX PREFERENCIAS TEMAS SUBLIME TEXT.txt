@@ -20,14 +20,14 @@
 		".sass-cache",
 		".idea"
 	],
-	"font_face": "Consolas",
+	"font_face": "Droid Sans Mono",
 	"font_options":
 	[
 		"subpixel_antialias",
 		"gray_antialias",
 		"no_bold"
 	],
-	"font_size": 11.5,
+	"font_size": 11,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -50,7 +50,7 @@
 	"material_theme_small_statusbar": false,
 	"material_theme_tabs_separator": true,
 	"material_theme_accent_orange": false,
-	"material_theme_accent_yellow": true,
+	"material_theme_accent_yellow": false,
 	"material_theme_accent_red": false,
 	"material_theme_accent_lime": false,
 	"overlay_scroll_bars": true,
@@ -62,9 +62,11 @@
 	"spell_check": false,
 	"tab_size": 2,
 	"theme": "Material Twilight.sublime-theme",
+
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
+
 
 
 
