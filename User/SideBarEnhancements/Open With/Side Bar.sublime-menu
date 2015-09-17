@@ -33,20 +33,6 @@
 
 			//separator - cria uma linha separadora entre os itens
 			{"caption":"-"},
-			//GOOGLE CHROME CANARY
-            {
-                "caption": "CHROME CANARY",
-                "id": "side-bar-files-open-with-chrome",
-
-                "command": "side_bar_files_open_with",
-                "args": {
-                                    "paths": [],
-                                    "application": "C:\\Users\\Thiago\\AppData\\Local\\Google\\Chrome SxS\\Application\\chrome.exe",
-                                    "extensions":".*" //any file with extension
-                        },
-                "open_automatically" : false // will close the view/tab and launch the application
-            },
-
 			//GOOGLE CHROME
 			{
 				"caption": "GOOGLE CHROME",
@@ -70,7 +56,7 @@
 				"command": "side_bar_files_open_with",
 				"args": {
 									"paths": [],
-									"application": "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe", // WINNT
+									"application": "C:\\Program Files\\Firefox Developer Edition\\firefox.exe", // WINNT
 									"extensions":"" //open all even folders
 								},
 				"open_automatically" : false // will close the view/tab and launch the application

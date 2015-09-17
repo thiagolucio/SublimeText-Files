@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"http_proxy": "http://proxy.nexxera.com:3128",
 	"https_proxy": "http://proxy.nexxera.com:3128",
 	"in_process_packages":
@@ -7,20 +8,24 @@
 	"installed_packages":
 	[
 		"ApplySyntax",
+		"AutoFileName",
 		"BracketHighlighter",
 		"Color Highlighter",
 		"CSS Format",
 		"HTMLBeautify",
+		"Icon Fonts",
+		"Local History",
 		"Material Color Scheme",
 		"Material Theme",
 		"Materialize",
 		"Package Control",
 		"Seti_UI",
 		"SideBarEnhancements",
+		"Sublimerge Pro",
 		"SublimeServer",
 		"Theme - Dark Material",
 		"Theme - Flatgrammer"
 	],
-	"proxy_password": "Paineiras.1",
+	"proxy_password": "Larigo.1",
 	"proxy_username": "thiago.silva"
 }
