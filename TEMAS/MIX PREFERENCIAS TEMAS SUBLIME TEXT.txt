@@ -31,7 +31,7 @@
 		".sass-cache",
 		".idea"
 	],
-	"font_face": "Source Code Pro",
+	"font_face": "Roboto Mono", //"Source Code Pro"
 	"font_options":
 	[
 		"subpixel_antialias",
@@ -39,7 +39,7 @@
 		"directwrite",
 		"no_bold"
 	],
-	"font_size": 12,
+	"font_size": 11,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -64,6 +64,7 @@
 	"material_theme_panel_separator": true,
 	"material_theme_small_statusbar": false,
 	"material_theme_small_tab": false,
+	"material_theme_tabs_autowidth": true,
 	"material_theme_tabs_separator": true,
 	"overlay_scroll_bars": true,
 	"quick_panel_small": true,
@@ -77,6 +78,7 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
+
 
 
 
