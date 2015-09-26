@@ -31,7 +31,7 @@
 		".sass-cache",
 		".idea"
 	],
-	"font_face": "Roboto Mono", //"Source Code Pro"
+	"font_face": "Aurulent Sans Mono",//DejaVu Sans Mono, Source Code Pro, Droid Sans Mono
 	"font_options":
 	[
 		"subpixel_antialias",
@@ -78,6 +78,7 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
+
 
 
 
