@@ -1,3 +1,4 @@
+
 {
 	"afn_use_project_root": true,
 	"afn_valid_scopes":
@@ -16,13 +17,14 @@
 	"bold_folder_labels": true,
 	"caret_extra_width": 1,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/Color Highlighter/themes/OneDarkSublimeTh.tmTheme",
+	"color_scheme": "Packages/User/Color Highlighter/themes/One Dark SETI #040505 Contrast4 Theme.tmTheme",
 	"default_encoding": "UTF-8",
 	"dictionary": "Packages/Language - Portuguese/pt_BR.dic",
 	"draw_indent_guides": true,
-	"draw_minimap_border": false,
+	"draw_minimap_border": true,
 	"fade_fold_buttons": true,
 	"fallback_encoding": "UTF-8",
+	"fold_buttons": true,
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -30,8 +32,8 @@
 		".sass-cache",
 		".idea"
 	],
-	"font_face": "Dejavu Sans Mono",
 	//... Inconsolata, Droid Sans Mono, Roboto Mono, Source Code Pro, Consolas, Monaco, Ubuntu Mono, Menlo,  Dejavu Sans Mono*/
+	"font_face": "Source Code Pro",
 	"font_options":
 	[
 		"subpixel_antialias",
@@ -39,7 +41,7 @@
 		"directwrite",
 		"no_bold"
 	],
-	"font_size": 10.5,
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -51,21 +53,26 @@
 		"draw_normal",
 		"draw_active"
 	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
+	"indent_subsequent_lines": true,
+	"lighter": true,
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
 	"match_brackets_content": true,
 	"match_brackets_square": true,
-	"material_theme_accent_lime": false,
+	"material_theme_accent_indigo": false,
+	"material_theme_accent_lime": true,
 	"material_theme_accent_orange": false,
-	"material_theme_accent_red": false,
 	"material_theme_accent_yellow": false,
 	"material_theme_bold_tab": true,
+	"material_theme_contrast_mode": true,
 	"material_theme_disable_tree_indicator": false,
 	"material_theme_panel_separator": true,
 	"material_theme_small_statusbar": false,
 	"material_theme_small_tab": false,
 	"material_theme_tabs_autowidth": true,
 	"material_theme_tabs_separator": true,
+	"material_theme_tree_headings": true,
+	"materialfme_accent_red": false,
 	"overlay_scroll_bars": true,
 	"quick_panel_small": true,
 	"scroll_past_end": true,
@@ -73,9 +80,10 @@
 	"show_full_path": true,
 	"show_line_endings": true,
 	"spell_check": false,
-	"tab_size": 2,
-	"theme": "Material Twilight.sublime-theme",
+	"tab_size": 4,
+	//Brogrammer / Spacegray / Twillight / Material-Theme-Darker / Flatland / Monokai / Seti / Stereokai / Twilight
+	"theme": "Material Seti.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"trim_trailing_white_space_on_save": true
 }
+
