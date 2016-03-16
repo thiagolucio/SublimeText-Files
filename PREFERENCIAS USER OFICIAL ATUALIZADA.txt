@@ -1,4 +1,3 @@
-
 {
 	"afn_use_project_root": true,
 	"afn_valid_scopes":
@@ -15,7 +14,7 @@
 	"auto_close_tags": true,
 	"auto_complete": true,
 	"bold_folder_labels": true,
-	"caret_extra_width": 1,
+	"caret_extra_width": 2,
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/Color Highlighter/themes/One Dark SETI #040505 Contrast4 Theme.tmTheme",
 	"default_encoding": "UTF-8",
@@ -41,7 +40,7 @@
 		"directwrite",
 		"no_bold"
 	],
-	"font_size": 13,
+	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -55,8 +54,8 @@
 	],
 	"indent_subsequent_lines": true,
 	"lighter": true,
-	"line_padding_bottom": 3,
-	"line_padding_top": 3,
+	"line_padding_bottom": 4,
+	"line_padding_top": 4,
 	"match_brackets_content": true,
 	"match_brackets_square": true,
 	"material_theme_accent_indigo": true,
@@ -80,10 +79,9 @@
 	"show_full_path": true,
 	"show_line_endings": true,
 	"spell_check": false,
-	"tab_size": 4,
+	"tab_size": 8,
 	//Brogrammer / Spacegray / Twillight / Material-Theme-Darker / Flatland / Monokai / Seti / Stereokai / Twilight
 	"theme": "Material Seti.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
-
