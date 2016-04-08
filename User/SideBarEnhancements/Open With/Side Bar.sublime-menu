@@ -3,92 +3,54 @@
 		"children":
 		[
 
-			//Iview32
+			//application 1
 			{
-				"caption": "InfranView32",
-				"id": "side-bar-files-open-with-InfranView32",
+				"caption": "Photoshop",
+				"id": "side-bar-files-open-with-photoshop",
 
 				"command": "side_bar_files_open_with",
 				"args": {
 									"paths": [],
-									"application": "C:\\Program Files (x86)\\IrfanView\\i_view32.exe", // WINNT
-									"extensions":"jpg|jpeg"  //any file with these extensions
-								},
-				"open_automatically" : false // will close the view/tab and launch the application
-			},
-			
-			//Fireworks
-			{
-				"caption": "Fireworks",
-				"id": "side-bar-files-open-with-fireworks",
-
-				"command": "side_bar_files_open_with",
-				"args": {
-									"paths": [],
-									"application": "C:\\Program Files (x86)\\Adobe\\Adobe Fireworks CS6\\Fireworks.exe", // WINNT
-									"extensions":"png"  //any file with these extensions
+									"application": "Adobe Photoshop CS5.app", // OSX
+									"extensions":"psd|png|jpg|jpeg",  //any file with these extensions
+									"args":[]
 								},
 				"open_automatically" : false // will close the view/tab and launch the application
 			},
 
-			//separator - cria uma linha separadora entre os itens
+			//separator
 			{"caption":"-"},
-			//GOOGLE CHROME
+
+			//application 2
 			{
-				"caption": "GOOGLE CHROME",
+				"caption": "SeaMonkey",
+				"id": "side-bar-files-open-with-seamonkey",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "C:\\Archivos de programa\\SeaMonkey\\seamonkey.exe", // WINNT
+									"extensions":"", //open all even folders
+									"args":[]
+								},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+			//application n
+			{
+				"caption": "Chrome",
 				"id": "side-bar-files-open-with-chrome",
 
 				"command": "side_bar_files_open_with",
 				"args": {
 									"paths": [],
-									"application": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
-									"extensions":".*" //any file with extension
+									"application": "C:\\Documents and Settings\\tito\\local\\Datos de programa\\Google\\Chrome\\Application\\chrome.exe",
+									"extensions":".*", //any file with extension
+									"args":[]
 						},
 				"open_automatically" : false // will close the view/tab and launch the application
 			},
 
-			
-			//FIREFOX
-			{
-				"caption": "FIREFOX",
-				"id": "side-bar-files-open-with-firefox",
-
-				"command": "side_bar_files_open_with",
-				"args": {
-									"paths": [],
-									"application": "C:\\Program Files\\Firefox Developer Edition\\firefox.exe", // WINNT
-									"extensions":"" //open all even folders
-								},
-				"open_automatically" : false // will close the view/tab and launch the application
-			},
-
-			//SAFARI
-			{
-				"caption": "SAFARI",
-				"id": "side-bar-files-open-with-safari",
-
-				"command": "side_bar_files_open_with",
-				"args": {
-									"paths": [],
-									"application": "C:\\Program Files (x86)\\Safari\\Safari.exe", // WINNT
-									"extensions":"" //open all even folders
-								},
-				"open_automatically" : false // will close the view/tab and launch the application
-			},
-			
-			//INTERNET EXPLORER
-			{
-				"caption": "IE",
-				"id": "side-bar-files-open-with-InternetExplorer",
-
-				"command": "side_bar_files_open_with",
-				"args": {
-									"paths": [],
-									"application": "C:\\Program Files\\Internet Explorer\\iexplore.exe", // WINNT
-									"extensions":"" //open all even folders
-								},
-				"open_automatically" : false // will close the view/tab and launch the application
-			}
+			{"caption":"-"}
 		]
 	}
 ]

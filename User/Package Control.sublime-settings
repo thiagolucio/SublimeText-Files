@@ -1,19 +1,24 @@
 {
 	"bootstrapped": true,
-	"http_proxy": "http://proxy.nexxera.com:3128",
-	"https_proxy": "http://proxy.nexxera.com:3128",
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
-		"ApplySyntax",
+		"Angular Material Snippets",
 		"AutoFileName",
 		"BracketHighlighter",
 		"Color Highlighter",
+		"ColorPicker",
+		"Compare Side-By-Side",
 		"CSS Format",
+		"FileDiffs",
+		"Git",
+		"GitDiffHelper",
+		"GitGutter",
 		"HTMLBeautify",
 		"Icon Fonts",
+		"Javascript Beautify",
 		"Local History",
 		"Material Color Scheme",
 		"Material Theme",
@@ -21,11 +26,6 @@
 		"Package Control",
 		"Seti_UI",
 		"SideBarEnhancements",
-		"Sublimerge Pro",
-		"SublimeServer",
-		"Theme - Dark Material",
-		"Theme - Flatgrammer"
-	],
-	"proxy_password": "Larigo.1",
-	"proxy_username": "thiago.silva"
+		"Theme - Dark Material"
+	]
 }
