@@ -390,7 +390,7 @@
     "unmatched": {
         "icon": "question",
         "color": "brackethighlighter.unmatched",
-        "style": "highlight"
+        "style": "outline"
     },
     // User defined region styles
     "curly": {
@@ -416,7 +416,7 @@
     "tag": {
         "icon": "tag",
         "color": "brackethighlighter.tag",
-        "style": "highlight"         
+        "style": "underline"
     },
     "c_define": {
             "icon": "hash"
