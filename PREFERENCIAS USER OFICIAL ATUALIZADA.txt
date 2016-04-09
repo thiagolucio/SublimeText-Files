@@ -89,16 +89,14 @@
 
 ::::::::::::::::::::::::::::::::::::::::::::TEMA OFICIAL - CONFIGURACAO PREFERENCES :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 {
-	"bold_folder_labels": true,
+	"always_show_minimap_viewport": true,
 	"auto_complete": true,
-	"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
-	// "color_scheme": "Packages/User/Color Highlighter/themes/One Dark Atom Similar Theme.tmTheme",
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/Color Highlighter/themes/One Dark Atom Similar Theme.tmTheme",
 	"default_encoding": "UTF-8",
 	"dictionary": "Packages/Language - Portuguese/pt_BR.dic",
-	"draw_minimap_border": false,
-	"always_show_minimap_viewport": true,
-	"font_face": "Roboto Mono",
-	"font_size": 13,
+	"draw_minimap_border": true,
+	"font_face": "Ubuntu Mono",
 	"font_options":
 	[
 		"subpixel_antialias",
@@ -106,6 +104,7 @@
 		"directwrite",
 		"no_bold"
 	],
+	"font_size": 13,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -117,10 +116,7 @@
 	],
 	"line_padding_bottom": 4,
 	"line_padding_top": 4,
+	"tab_size": 8,
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"tab_size": 8
+	"trim_trailing_white_space_on_save": true
 }
-
-
-
