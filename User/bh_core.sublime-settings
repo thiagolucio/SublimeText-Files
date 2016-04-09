@@ -24,7 +24,7 @@
     // High visibility style and color for high visibility mode
     // (solid|outline|underline)
     // ST3 has additional options of (thin_underline|squiggly|stippled)
-    "high_visibility_style": "outline",
+    "high_visibility_style": "underline",
 
     // (scope|__default__|__bracket__)
     "high_visibility_color": "__bracket__",
@@ -390,28 +390,28 @@
     "unmatched": {
         "icon": "question",
         "color": "brackethighlighter.unmatched",
-        "style": "outline"
+        "style": "underline"
     },
     // User defined region styles
     "curly": {
         "icon": "curly_bracket",
         "color": "brackethighlighter.curly",
-        "style": "outline"
+        "style": "underline"
     },
     "round": {
         "icon": "round_bracket",
         "color": "brackethighlighter.round",
-        "style": "outline"
+        "style": "underline"
     },
     "square": {
         "icon": "square_bracket",
         "color": "brackethighlighter.square",
-        "style": "outline"
+        "style": "underline"
     },
     "angle": {
         "icon": "angle_bracket",
         "color": "brackethighlighter.angle",
-        "style": "outline"
+        "style": "underline"
     },
     "tag": {
         "icon": "tag",
@@ -426,17 +426,17 @@
     "single_quote": {
         "icon": "single_quote",
         "color": "brackethighlighter.quote",
-        "style": "outline"
+        "style": "underline"
     },
     "double_quote": {
         "icon": "double_quote",
         "color": "brackethighlighter.quote",
-        "style": "outline"
+        "style": "underline"
     },
     "regex": {
         "icon": "regex",
         "color": "brackethighlighter.quote",
-        "style": "outline"
+        "style": "underline"
     }
 },
 
