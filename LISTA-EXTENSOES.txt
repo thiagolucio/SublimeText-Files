@@ -1,0 +1,14 @@
+Auto File Name
+Brackets Highlighter
+CSS Format
+Color Highlighter
+Compare Side by Side
+File Diffs
+Git
+Git gutter
+HTML Beautify
+Javascript Beautify
+Local history
+Side bar
+Sublime Code Intel
+Color Picker
