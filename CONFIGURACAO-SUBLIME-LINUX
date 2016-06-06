@@ -1,36 +1,38 @@
 {
-    // Note that the font_face and font_size are overriden in the platform
-    // specific settings file, for example, "Preferences (Linux).sublime-settings".
-    // Because of this, setting them here will have no effect: you must set them
-    // in your User File Preferences.
-    "font_face": "Source Code Pro",
-    "font_size": 12,
-
-    // List any packages to ignore here. When removing entries from this list,
-    // a restart may be required if the package contains plugins.
-    "ignored_packages": ["Vintage"],
-
-    // The number of spaces a tab is considered equal to
-    "tab_size": 4,
-
-    // Set to true to insert spaces when tab is pressed
-    "translate_tabs_to_spaces": true,
-
-    // Set to true to removing trailing white space on save
-    "trim_trailing_white_space_on_save": true,
-
-    // Disables horizontal scrolling if enabled.
-    // May be set to true, false, or "auto", where it will be disabled for
-    // source code, and otherwise enabled.
-    "word_wrap": false,
-
-    // Show folders in the side bar in bold
-    "bold_folder_labels": true,
-
-    // Set to true to automatically save files when switching to a different file
-    // or application
-    "save_on_focus_lost": true,
-
-    // If enabled, will highlight any line with a caret
-    "highlight_line": true,
+	"always_show_minimap_viewport": true,
+	"auto_complete": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/Color Highlighter/themes/One Dark Atom Similar Theme.tmTheme",
+	"default_encoding": "UTF-8",
+	"dictionary": "Packages/Language - Portuguese/pt_BR.dic",
+	"draw_minimap_border": true,
+	"fade_fold_buttons": true,
+	"fold_buttons": true,
+	"font_face": "Aurulent Sans Mono",
+	"font_options":
+	[
+		"subpixel_antialias",
+		"gray_antialias",
+		"directwrite",
+		"no_bold"
+	],
+	"font_size": 13,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 4,
+	"line_padding_top": 4,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "true"
 }
+
