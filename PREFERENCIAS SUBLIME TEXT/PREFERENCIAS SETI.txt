@@ -1,0 +1,46 @@
+{
+	"Seti_SB_blue": true,
+	"Seti_blue_label": true,
+	"Seti_bold_heading": true,
+	"Seti_bold_slctdtab_labels": false,
+	"Seti_top_heading_anim": true,
+	"Seti_top_heading_big": true,
+	"Seti_top_heading_small": true,
+	"always_show_minimap_viewport": true,
+	"auto_complete": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/Color Highlighter/themes/One Dark Atom #040505 Theme.tmTheme",
+	"default_encoding": "UTF-8",
+	"dictionary": "Packages/Language - Portuguese/pt_BR.dic",
+	"draw_minimap_border": true,
+	"fade_fold_buttons": true,
+	"fold_buttons": true,
+	"font_face": "Source Code Pro",
+	"font_options":
+	[
+		"subpixel_antialias",
+		"gray_antialias",
+		"directwrite",
+		"no_bold"
+	],
+	"font_size": 13,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 4,
+	"line_padding_top": 4,
+	"tab_size": 4,
+	"theme": "Seti.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "true"
+}
+
