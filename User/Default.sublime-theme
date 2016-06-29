@@ -1,8 +1,23 @@
 [
+//Sidebar Label
 {
-    "class": "sidebar_label",
-    "color": [0,0,0],
-    // "font.bold": true,
-    "font.size": 12
+	"class": "sidebar_label",
+	"color": [9, 9, 9],	
+	"font.size": 12.5
+},
+// Sidebar container
+{
+	"class": "sidebar_container",
+	"layer0.opacity": 1,	
+	"content_margin": [0,0,0,0]
+},
+// Sidebar tree || entries
+{
+	"class": "sidebar_tree",
+	"indent_offset": 12,
+	"indent": 15,
+	"row_padding": [6,6],	
+	"layer0.opacity": 1.0,
+	"indent_top_level": true
 },
 ]

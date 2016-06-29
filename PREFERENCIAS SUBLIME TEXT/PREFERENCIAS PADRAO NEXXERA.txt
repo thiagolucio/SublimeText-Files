@@ -28,10 +28,10 @@
 		"draw_normal",
 		"draw_active"
 	],
-	"line_padding_bottom": 4,
-	"line_padding_top": 4,
-	"material_theme_accent_blue": true,
-	"tab_size": 4,
+	"line_padding_bottom": 6,
+	"line_padding_top": 6,
+	"tab_size": 2,
+	// "theme": "Seti.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "true"
