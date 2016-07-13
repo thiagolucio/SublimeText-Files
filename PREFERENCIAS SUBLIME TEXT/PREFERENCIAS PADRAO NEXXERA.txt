@@ -30,8 +30,7 @@
 	],
 	"line_padding_bottom": 6,
 	"line_padding_top": 6,
-	"tab_size": 2,
-	// "theme": "Seti.sublime-theme",
+	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "true"
