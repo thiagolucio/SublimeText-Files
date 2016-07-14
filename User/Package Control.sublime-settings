@@ -7,6 +7,8 @@
 	[
 		"Angular Material Snippets",
 		"AutoFileName",
+		"Bootstrap 3 Jade Snippets",
+		"Bootstrap 3 Snippets",
 		"BracketHighlighter",
 		"Color Highlighter",
 		"ColorPicker",
@@ -23,9 +25,13 @@
 		"Material Color Scheme",
 		"Material Theme",
 		"Materialize",
+		"Numix Theme",
 		"Package Control",
 		"Seti_UI",
 		"SideBarEnhancements",
-		"Theme - Dark Material"
+		"SublimeCodeIntel",
+		"SyncedSideBar",
+		"Theme - Dark Material",
+		"Theme - Numix"
 	]
 }
