@@ -2,7 +2,7 @@
 	"always_show_minimap_viewport": true,
 	"auto_complete": true,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Color Highlighter/themes/Material Theme AltByThiago.tmTheme",
+	"color_scheme": "Packages/User/Color Highlighter/themes/OneDarkSublimeTh.tmTheme",
 	"default_encoding": "UTF-8",
 	"dictionary": "Packages/Language - Portuguese/pt_BR.dic",
 	"draw_minimap_border": true,
@@ -16,12 +16,11 @@
 		"directwrite",
 		"no_bold"
 	],
-	"font_size": 11,
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Theme - Primer",
 		"Vintage"
 	],
 	"indent_guide_options":
@@ -32,6 +31,12 @@
 	"line_padding_bottom": 6,
 	"line_padding_top": 6,
 	"tab_size": 4,
+	"theme": "Primer Dark.sublime-theme",
+	"theme_primer_sidebar_font_large": true,
+	"theme_primer_sidebar_tree_xlarge": true,
+	"theme_primer_tab_active_blue": true,
+	"theme_primer_tabs_font_large": true,
+	"theme_primer_tabs_large": true,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "true"
