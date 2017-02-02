@@ -1,0 +1,49 @@
+{
+    "always_show_minimap_viewport": true,
+    "auto_complete": true,
+    "bold_folder_labels": true,
+    "default_encoding": "UTF-8",
+    "dictionary": "Packages/Language - Portuguese/pt_BR.dic",
+    "draw_minimap_border": true,
+    "enable_typescript_language_service": true,
+    "fade_fold_buttons": true,
+    "fold_buttons": true,
+    "font_face": "Consolas",
+    "font_options":
+    [
+        "subpixel_antialias",
+        "gray_antialias",
+        "directwrite",
+        "no_bold"
+    ],
+    "font_size": 12,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "indent_guide_options":
+    [
+        "draw_normal",
+        "draw_active"
+    ],
+    "line_padding_bottom": 6,
+    "line_padding_top": 6,
+    "tab_size": 4,
+    "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+    "theme": "Material-Theme.sublime-theme",
+    "material_theme_accent_blue": true,
+    "material_theme_accent_scrollbars" : true ,
+    "material_theme_compact_panel" : true , // Set minimal padding for the search panel
+    "material_theme_contrast_mode"  : true ,
+    "translate_tabs_to_spaces": true,
+    "material_theme_panel_separator": true,
+    "material_theme_small_statusbar": true,
+    "material_theme_bullet_tree_indicator"    : true ,
+    "material_theme_bold_tab"                 : true ,
+    "material_theme_tabs_separator"           : true ,
+    "trim_trailing_white_space_on_save": true,
+    "word_wrap": "true"
+}
+
