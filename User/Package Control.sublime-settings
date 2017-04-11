@@ -5,33 +5,13 @@
 	],
 	"installed_packages":
 	[
-		"Angular Material Snippets",
-		"AutoFileName",
-		"Bootstrap 3 Jade Snippets",
-		"Bootstrap 3 Snippets",
-		"BracketHighlighter",
+		"AngularJS",
 		"Color Highlighter",
 		"ColorPicker",
-		"Compare Side-By-Side",
 		"CSS Format",
-		"FileDiffs",
-		"Git",
-		"GitDiffHelper",
-		"GitGutter",
 		"HTMLBeautify",
-		"Icon Fonts",
-		"Javascript Beautify",
-		"Local History",
-		"Material Color Scheme",
-		"Material Theme",
-		"Materialize",
-		"Numix Theme",
 		"Package Control",
-		"Seti_UI",
 		"SideBarEnhancements",
-		"SublimeCodeIntel",
-		"SyncedSideBar",
-		"Theme - Dark Material",
-		"Theme - Numix"
+		"TypeScript"
 	]
 }

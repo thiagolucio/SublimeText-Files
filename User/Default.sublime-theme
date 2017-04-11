@@ -3,7 +3,7 @@
 {
 	"class": "sidebar_label",
 	"color": [9, 9, 9],	
-	"font.size": 12.5
+	"font.size": 12
 },
 // Sidebar container
 {
@@ -14,7 +14,7 @@
 // Sidebar tree || entries
 {
 	"class": "sidebar_tree",
-	"indent_offset": 12.5,
+	"indent_offset": 15,
 	"indent": 15,
 	"row_padding": [6,6],	
 	"layer0.opacity": 1.0,
