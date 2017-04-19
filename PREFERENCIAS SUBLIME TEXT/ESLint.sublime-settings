@@ -1,0 +1,5 @@
+{
+    "node_path": "/usr/bin/nodejs",
+    "node_modules_path": "/usr/lib/node_modules/",
+    "config_file": "/usr/lib/node_modules/eslint/bin/eslint.js"
+}
