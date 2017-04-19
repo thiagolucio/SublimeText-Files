@@ -2,13 +2,14 @@
 	"always_show_minimap_viewport": true,
 	"auto_complete": true,
 	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/SublimeLinter/Eiffel (SL).tmTheme",
 	"default_encoding": "UTF-8",
 	"dictionary": "Packages/Language - Portuguese/pt_BR.dic",
 	"draw_minimap_border": true,
 	"enable_typescript_language_service": true,
 	"fade_fold_buttons": true,
 	"fold_buttons": true,
-	"font_face": "Hack",
+	"font_face": "Consolas",
 	"font_options":
 	[
 		"subpixel_antialias",
@@ -40,6 +41,7 @@
 	"material_theme_small_statusbar": true,
 	"material_theme_tabs_separator": true,
 	"tab_size": 4,
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "true"

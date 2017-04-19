@@ -1,0 +1,6 @@
+{
+    "node_path": "/usr/bin/nodejs",
+    "node_modules_path": "/usr/lib/node_modules/",
+    "config_file": "/usr/lib/node_modules/eslint/bin/eslint.js",
+        "config_file": "/usr/lib/node_modules/webpack/node_modules/domain-browser/.eslintrc.js"
+}

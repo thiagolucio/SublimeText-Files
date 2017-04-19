@@ -5,13 +5,20 @@
 	],
 	"installed_packages":
 	[
+		"Angular Material Snippets",
 		"AngularJS",
+		"BracketHighlighter",
+		"Brackets Color Scheme",
 		"Color Highlighter",
 		"ColorPicker",
 		"CSS Format",
+		"ESLint",
+		"Go To Definition",
 		"HTMLBeautify",
 		"Package Control",
 		"SideBarEnhancements",
+		"SublimeLinter",
+		"Terminal",
 		"TypeScript"
 	]
 }
