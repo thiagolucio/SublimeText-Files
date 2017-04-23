@@ -3,75 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Eiffel</string>
+	<string>SublimeMergeNew</string>
 	<key>author</key>
 	<string>Ian Joyner</string>
 	<key>settings</key>
 	<array>
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_FFFAFAFF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#FFFAFAFF</string>
-<key>foreground</key>
-<string>#040000FF</string>
-<key>caret</key>
-<string>#040000FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_FFFAFAFF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#FFFFFEFF</string>
-<key>foreground</key>
-<string>#FFFAFAFF</string>
-<key>caret</key>
-<string>#040000FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_333333FF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#333333FF</string>
-<key>foreground</key>
-<string>#CCCCCCFF</string>
-<key>caret</key>
-<string>#CCCCCCFF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_333333FF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#FFFFFEFF</string>
-<key>foreground</key>
-<string>#333333FF</string>
-<key>caret</key>
-<string>#CCCCCCFF</string>
-</dict>
-</dict>
-
 		<dict>
 			<key>settings</key>
 			<dict>
@@ -496,6 +432,105 @@
 				<string>#B90690</string>
 			</dict>
 		</dict>
+	
+		<dict>
+			<key>scope</key>
+			<string>sublimerge.diff_block_changed</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FDECAC</string>
+			</dict>
+		</dict>
+
+	
+		<dict>
+			<key>scope</key>
+			<string>sublimerge.diff_block_inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#64BF0E</string>
+			</dict>
+		</dict>
+
+	
+		<dict>
+			<key>scope</key>
+			<string>sublimerge.diff_block_deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F92672</string>
+			</dict>
+		</dict>
+
+	
+		<dict>
+			<key>scope</key>
+			<string>sublimerge.diff_block_intraline_changed</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FDECAC</string>
+			</dict>
+		</dict>
+
+	
+		<dict>
+			<key>scope</key>
+			<string>sublimerge.diff_block_intraline_inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FDECAC</string>
+			</dict>
+		</dict>
+
+	
+		<dict>
+			<key>scope</key>
+			<string>sublimerge.diff_block_intraline_deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FDECAC</string>
+			</dict>
+		</dict>
+
+	
+		<dict>
+			<key>scope</key>
+			<string>sublimerge.diff_block_selected</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#75715E</string>
+			</dict>
+		</dict>
+
+	
+		<dict>
+			<key>scope</key>
+			<string>sublimerge.diff_block_missing</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#75715E</string>
+			</dict>
+		</dict>
+
+	
+		<dict>
+			<key>scope</key>
+			<string>sublimerge.diff_block_conflict</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF0000</string>
+			</dict>
+		</dict>
+
 	</array>
 	<key>uuid</key>
 	<string>ADD7FDE7-C6BE-454B-A71A-7951ED54FB04</string>
